@@ -224,7 +224,7 @@ const useGemFarmStaking = (farmId: string) => {
     if (!gemFarmClient || !gemBankClient)
       throw new Error("No Gem Bank client has been initialized.")
 
-    setFeedbackStatus("Depositing Gems to the vault...")
+    setFeedbackStatus("Planting Baad Seed...")
     for (const nft of selectedWalletItems) {
       const creator = new PublicKey(
         nft.onchainMetadata.data.creators?.[0].address || ""

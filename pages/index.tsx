@@ -107,7 +107,7 @@ const StakePage = () => {
                       src="images/gemtransparent.gif"
                     />
                     <Text>
-                      NFTs staked:&nbsp;
+                      Baad Seeds planted:&nbsp;
                       {farmerAccount?.gemsStaked.toNumber()}
                     </Text>
                   </Flex>
@@ -279,7 +279,7 @@ const StakePage = () => {
                           }}
                           variant="small"
                         >
-                          Select NFTs to move them to your Vault.
+                          Choose which Baad Seeds you would like to plant.
                         </Text>
                       ) : null}
                       <Text>
